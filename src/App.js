@@ -5,7 +5,7 @@ import Layout from './components/Layout';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Projects from './components/Projects';  // Import your Projects component
-import Skills from './components/Skills';  // Import your Skills component
+// import Skills from './components/Skills';  // Import your Skills component
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
 
           <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
+          {/* <Route path="/skills" element={<Skills />} /> */}
         </Route>
       </Routes>
     </>
