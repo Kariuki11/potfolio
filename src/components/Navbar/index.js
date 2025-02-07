@@ -19,9 +19,6 @@ const Navbar = () => {
                 &#9776;
             </button>
         </div>
-      {/* <button className="navbar-toggler" onClick={() => setIsOpen(!isOpen)}>
-        &#9776;
-      </button> */}
       <div className={`navbar-collapse ${isOpen ? "open" : ""}`}>
         <ul className="navbar-nav">
             <li className="nav-item active">
