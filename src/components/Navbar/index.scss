@@ -3,7 +3,30 @@
     align-items: center;
     justify-content: space-between;
     background: #f8f9fa;
-    padding: 10px 20px;
+    padding: 2px;
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+        .logo {
+            display: block;
+            padding: 8px 0;
+        
+            img {
+              display: block;
+              margin: 8px auto;
+              width: 24px;
+              height: auto;
+        
+              &.sub-logo {
+                width: 50px;
+              }
+            }
+          }
+    }
 
   
     .navbar-toggler {

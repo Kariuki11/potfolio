@@ -1,7 +1,8 @@
 import { useState } from "react";
 import './index.scss';
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import LogoS from '../../assets/images/logo-s (1).png';
 ////import { faLinkedin, faGithub, faInstagram, faFacebook, } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faHome, faUser, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,9 +11,17 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <button className="navbar-toggler" onClick={() => setIsOpen(!isOpen)}>
+        <div className="navbar-brand">
+            <Link className='logo' to='/'>
+                <img src={LogoS} alt="Main Logo" />
+            </Link>
+            <button className="navbar-toggler" onClick={() => setIsOpen(!isOpen)}>
+                &#9776;
+            </button>
+        </div>
+      {/* <button className="navbar-toggler" onClick={() => setIsOpen(!isOpen)}>
         &#9776;
-      </button>
+      </button> */}
       <div className={`navbar-collapse ${isOpen ? "open" : ""}`}>
         <ul className="navbar-nav">
             <li className="nav-item active">
