@@ -81,6 +81,12 @@
         }
       }
     }
+    .social-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+    }
   
     .search-form {
       display: flex;

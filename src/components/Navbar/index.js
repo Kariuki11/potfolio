@@ -3,7 +3,7 @@ import './index.scss';
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import LogoS from '../../assets/images/logo-s (1).png';
-////import { faLinkedin, faGithub, faInstagram, faFacebook, } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faInstagram, faFacebook, } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faHome, faUser, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
@@ -52,6 +52,29 @@ const Navbar = () => {
                 </NavLink>
             </li>
         </ul>
+
+        <ul className="social-links">
+                    <li>
+                        <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/kenn-kariuki-222922286/'>
+                            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel='noreferrer' href='https://github.com/Kariuki11'>
+                            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel='noreferrer' href='https://www.instagram.com/kariukii_ken/'>
+                            <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" rel='noreferrer' href='https://www.facebook.com/profile.php?id=100080064271087'>
+                            <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" />
+                        </a>
+                    </li>
+                </ul>
         
       </div>
     </nav>
