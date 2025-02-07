@@ -24,26 +24,31 @@ const Navbar = () => {
             <li className="nav-item active">
                 <NavLink exact={true} activeClassName="active" to="/">
                     <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+                    <span>Home</span>
                 </NavLink>
             </li>
             <li className="nav-item active">
                 <NavLink exact={true} activeClassName="active" to="/about">
                     <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+                    <span>About</span>
                 </NavLink>
             </li>
             <li className="nav-item active">
                 <NavLink exact={true} activeClassName="active" className="projects-link" to="/projects">
                     <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
+                    <span>Projects</span>
                 </NavLink>
             </li>
             <li className="nav-item active">
                 <NavLink exact={true} activeClassName="active" className="skills-link" to="/skills">
                     <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
+                    <span>Skills</span>
                 </NavLink>
             </li>
             <li className="nav-item active">
                 <NavLink exact={true} activeClassName="active" className="contact-link" to="/contact">
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+                    <span>Contact</span>
                 </NavLink>
             </li>
         </ul>
