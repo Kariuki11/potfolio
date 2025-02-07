@@ -40,9 +40,6 @@ const Navbar = () => {
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                 </NavLink>
             </li>
-          <li className="nav-item active">
-            <a className="nav-link" href="#">Home</a>
-          </li>
         </ul>
         
       </div>
@@ -51,44 +48,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import './index.scss';
-
-// const Navbar = () => {
-//     return (
-//         <nav className="navbar">
-//             <div className="navbar__logo">Logo</div>
-//         </nav>
-//     );
-// }
-
-// export default Navbar;
