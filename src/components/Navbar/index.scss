@@ -1,9 +1,10 @@
 .navbar {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
     background: #f8f9fa;
     padding: 10px 20px;
+
   
     .navbar-toggler {
       background: none;
@@ -18,7 +19,7 @@
     }
   
     .navbar-collapse {
-      display: flex;
+      display: none;
       align-items: center;
       gap: 20px;
   
@@ -64,6 +65,11 @@
         border-radius: 4px;
         cursor: pointer;
       }
+    }
+  }
+  @media (max-width: 640px) {
+    .navbar {
+      display: flex;
     }
   }
   
