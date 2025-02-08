@@ -40,10 +40,10 @@ const Navbar = () => {
                 </NavLink>
             </li>
             <li className="nav-item active">
-                <NavLink exact={true} activeClassName="active" className="skills-link" to="/skills">
+                {/* <NavLink exact={true} activeClassName="active" className="skills-link" to="/skills">
                     <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
                     <span>Skills</span>
-                </NavLink>
+                </NavLink> */}
             </li>
             <li className="nav-item active">
                 <NavLink exact={true} activeClassName="active" className="contact-link" to="/contact">
