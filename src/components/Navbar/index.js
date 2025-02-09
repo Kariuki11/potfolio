@@ -12,9 +12,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
         <div className="navbar-brand">
-            <Link className='logo' to='/'>
+            {/* <Link className='logo' to='/'>
                 <img src={LogoS} alt="Main Logo" />
-            </Link>
+            </Link> */}
             <button className="navbar-toggler" onClick={() => setIsOpen(!isOpen)}>
                 &#9776;
             </button>
