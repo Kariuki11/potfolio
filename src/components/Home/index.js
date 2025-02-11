@@ -3,14 +3,26 @@ import LogoTitle from '../../assets/images/logo-s (1).png'
 import './index.scss';
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters';
-// import Logo from './Logo';
+//import Logo from './Logo';
 import Loader from 'react-loaders';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = [
         'E',
         'N',
-        'N'
+        'N',
+        'E',
+        'T',
+        'H',
+        ' ',
+        'K',
+        'A',
+        'R',
+        'I',
+        'U',
+        'K',
+        'I',
+        '.'
     ]
 
     const jobArray = [
@@ -60,14 +72,14 @@ const Home = () => {
                 idx={22}
                 />
                 </h1>
-                <h2>Software Developer / Python Expert</h2>
+                <h2>Software Developer</h2>
                 <Link to="/contact" className="flat-button">
                 CONTACT ME
                 </Link>
                 <Link to="/about" className="flat-button">
                 About Me
                 </Link>
-                {/* <Logo /> */}
+                    {/* <Logo />  */}
             </div>
         </div>
         <Loader type="pacman" />
