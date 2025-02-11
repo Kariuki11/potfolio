@@ -49,7 +49,7 @@ const Contact = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>I am passionate about the tech world, particularly Fintech startups and innovative ideas, and always eager to explore opportunities that foster career growth. With strong programming skills and a solid understanding of the tech landscape, I am excited to collaborate on projects that push boundaries and drive innovation
+                    <p>I am passionate about the tech world and always eager to explore opportunities that foster career growth. With strong programming skills and a solid understanding of the tech landscape, I am excited to collaborate on projects that push boundaries and drive innovation
                         </p>
                         <div class='contact-form'>
                             <form ref={refForm} onSubmit={sendEmail}>
