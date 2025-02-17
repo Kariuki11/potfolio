@@ -45,7 +45,7 @@ const About = () => {
             />
           </h1>
           <p>
-          I am a backend developer passionate about Python, Django, and building scalable APIs, with experience in Docker, Kubernetes, and databases like PostgreSQL, SQL, and MongoDB.
+          I am a software developer passionate about Python, Django, and building scalable APIs, with experience in Docker, Kubernetes, and databases like PostgreSQL, SQL, and MongoDB.
           </p>
           <p align="LEFT">
           I have worked on multiple personal and school projects, including a Netflix clone, a car dealership marketplace, a CRM app, and an Airbnb clone using Flask.

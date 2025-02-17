@@ -1,64 +1,307 @@
+// Import Fonts
+@font-face {
+  font-family: "Coolvetica";
+  src: url("/potfolio/src/assets/fonts/CoolveticaRg-Regular\ \(1\).woff") format("woff"),
+       url("/fonts/CoolveticaRg-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/fonts/CoolveticaRg-Regular.woff
+// Base Styles
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #002133;
+  font-family: "Coolvetica", sans-serif;
+}
+
+// Skills Section
 .skills-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    min-height: 100vh;
-    background-color: #0a0a23;
-    color: #fff;
-  
-    .description {
-      flex: 1;
-      padding: 2rem;
-  
-      h1 {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-        color: #61dafb;
-      }
-  
-      p {
-        font-size: 1.2rem;
-        line-height: 1.5;
-      }
-    }
-  
-    .globe {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  
-      .tagcloud {
-        font-size: 18px;
-        text-align: center;
-        color: #61dafb;
-  
-        span {
-          color: #61dafb;
-          transition: transform 0.3s ease-in-out;
-  
-          &:hover {
-            color: #fff;
-            transform: scale(1.2);
-          }
-        }
-      }
-    }
-  
-    // Mobile responsiveness
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+
+  // Title Styling
+  h1 {
+    font-size: 3rem;
+    color: #FFD700;
+    margin-bottom: 1.5rem;
+    z-index: 2;
+
     @media (max-width: 768px) {
-      flex-direction: column;
-  
-      .description {
-        order: 1;
-        text-align: center;
-      }
-  
-      .globe {
-        order: 2;
-        margin-top: 2rem;
-      }
+      font-size: 2.5rem;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 2rem;
     }
   }
+}
+
+// Canvas Container
+.canvas-container {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at center, rgba(255, 215, 0, 0.2) 0%, #002133 80%);
+    pointer-events: none;
+  }
+
+  @media (max-width: 768px) {
+    height: 60vh;
+  }
+
+  @media (max-width: 480px) {
+    height: 50vh;
+  }
+}
+
+// Skills Text (Floating Words)
+.word-text {
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+
+  &:hover {
+    transform: scale(1.2);
+    color: #FFD700;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+  }
+}
+
+// Responsive Globe Positioning
+@media (max-width: 768px) {
+  .canvas-container {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 480px) {
+  .canvas-container {
+    transform: scale(0.7);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .skills-container {
+//   width: 100%;
+//   height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: #1d1d1d;
+//   color: white;
+
+//   h1 {
+//     font-size: 3rem;
+//     margin-bottom: 2rem;
+//   }
+
+//   .globe {
+//     width: 600px;
+//     height: 600px;
+//     border-radius: 50%;
+//     background-color: rgba(0, 0, 0, 0.8);
+//     position: relative;
+//     overflow: hidden;
+//     box-shadow: 0 0 50px rgba(255, 255, 255, 0.1);
+//   }
+
+//   .skills-list {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     align-items: center;
+//     z-index: 10;
+//   }
+
+//   .skill-item {
+//     font-size: 1rem;
+//     padding: 0.5rem 1rem;
+//     margin: 0.5rem;
+//     background-color: rgba(255, 255, 255, 0.1);
+//     border-radius: 20px;
+//     animation: float 5s infinite ease-in-out;
+//     transition: all 0.3s ease;
+
+//     &:hover {
+//       transform: scale(1.1);
+//       background-color: rgba(255, 255, 255, 0.2);
+//     }
+//   }
+// }
+
+// @keyframes float {
+//   0%, 100% {
+//     transform: translateY(0);
+//   }
+//   50% {
+//     transform: translateY(-10px);
+//   }
+// }
+
+// #tsparticles {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .skills-container {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 2rem;
+//     min-height: 100vh;
+//     background-color: #0a0a23;
+//     color: #fff;
+  
+//     .description {
+//       flex: 1;
+//       padding: 2rem;
+  
+//       h1 {
+//         font-size: 2.5rem;
+//         margin-bottom: 1rem;
+//         color: #61dafb;
+//       }
+  
+//       p {
+//         font-size: 1.2rem;
+//         line-height: 1.5;
+//       }
+//     }
+  
+//     .globe {
+//       flex: 1;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+  
+//       .tagcloud {
+//         font-size: 18px;
+//         text-align: center;
+//         color: #61dafb;
+  
+//         span {
+//           color: #61dafb;
+//           transition: transform 0.3s ease-in-out;
+  
+//           &:hover {
+//             color: #fff;
+//             transform: scale(1.2);
+//           }
+//         }
+//       }
+//     }
+  
+//     // Mobile responsiveness
+//     @media (max-width: 768px) {
+//       flex-direction: column;
+  
+//       .description {
+//         order: 1;
+//         text-align: center;
+//       }
+  
+//       .globe {
+//         order: 2;
+//         margin-top: 2rem;
+//       }
+//     }
+//   }
   
