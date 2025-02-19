@@ -39,12 +39,12 @@ const Navbar = () => {
                     <span>Projects</span>
                 </NavLink>
             </li>
-            <li className="nav-item active">
-                {/* <NavLink exact={true} activeClassName="active" className="skills-link" to="/skills">
+            {/* <li className="nav-item active">
+                <NavLink exact={true} activeClassName="active" className="skills-link" to="/skills">
                     <FontAwesomeIcon icon={faBriefcase} color="#4d4d4e" />
                     <span>Skills</span>
-                </NavLink> */}
-            </li>
+                </NavLink>
+            </li> */}
             <li className="nav-item active">
                 <NavLink exact={true} activeClassName="active" className="contact-link" to="/contact">
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
