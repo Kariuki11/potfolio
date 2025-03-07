@@ -107,15 +107,6 @@ export default About
 
 
 
-{/* <p>
-Kariuki Kenneth is a passionate and innovative software developer with a strong foundation in backend development. His expertise spans Python, Django, and JavaScript, with practical experience in building efficient, scalable APIs and dynamic web applications. Kariuki's dedication to learning is evident in his journey through the ALX Software Engineering program, where he honed his skills by working on diverse projects, from an Airbnb clone to a car dealership platform. His proficiency in tools like PostgreSQL, MongoDB, and Docker underscores his adaptability and technical versatility.
-</p>
-<p align="LEFT">
-Beyond technical prowess, Kariuki thrives in collaborative environments. His exceptional communication and problem-solving abilities enable him to work effectively with teams and contribute meaningfully to project goals. His passion for technology is matched by his curiosity, driving him to explore new tools, frameworks, and best practices to stay ahead in the ever-evolving tech landscape. Kariuki is eager to leverage his skills and experience to create innovative solutions that drive business growth and enhance user experiences.
-</p>
-<p>
-Kariuki's entrepreneurial spirit is evident in his contributions to educational platforms like CampoPrime and Gloxad Academy. His commitment to empowering others through technology is complemented by a keen interest in continuous personal and professional growth. Whether tackling complex challenges or creating user-friendly applications, Kariuki is a dedicated professional eager to make a positive impact in the world of software development
-</p> */}
 
 
 
