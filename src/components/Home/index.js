@@ -78,11 +78,12 @@ const Home = () => {
                 </Link>
                 {/* Replace the About Me Link with a Download Resume button */}
                 <a 
-                        href="/path/to/your/resume.pdf" // Replace with the actual path to your resume file
+                        // href="/path/to/your/resume.pdf" // Replace with the actual path to your resume file
+                        href="Public/Kenneth-Kariuki_Resume.pdf" // Replace with the actual path to your resume file
                         download="Your_Resume.pdf" // This will be the name of the downloaded file
                         className="flat-button"
                     >
-                        Download Resume
+                        Download CV.
                     </a>
                 {/* <Link to="/about" className="flat-button">
                 RESUME
