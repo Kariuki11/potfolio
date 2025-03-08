@@ -23,7 +23,43 @@ const projects = [
     tags: ['#rustj', '#supotone', '#cui'],
     githubUrl: 'https://github.com/yourusername/trip-guide',
     imageUrl: 'path/to/trip-guide.jpg' // Replace with actual image path
-  }
+  },
+  {
+        title: 'Car Rent',
+        description: 'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+        image: 'image1',
+        tags: ['#mongodo', '#tokwini'],
+      },
+      {
+        title: 'Job IT',
+        description: 'Web application that enables users to search for job openings, view estimated salary request for positions, and locate available jobs based on their current location.',
+        image: 'image2',
+        tags: ['#rustap', '#kau'],
+      },
+      {
+        title: 'Trip Guide',
+        description: 'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, can offer curated recommendations for popular destinations.',
+        image: 'image3',
+        tags: ['#rustj', '#supotone', '#cui'],
+      },
+      {
+        title: 'AirBnB Platform clone',
+        description: 'Web-based platform that allows users to search, book, and manage Home rentals from various providers, providing a convenient and efficient solution for Hospitality needs.',
+        image: 'image4',
+        tags: ['RestApi', 'Flask', 'Python', 'JavaScript'],
+      },
+      {
+        title: 'Notifey',
+        description: 'A Web Application that allow users to Organize their schedules including meetings and plans of the day. Users can create, Update and delete what is unnecessary to them.',
+        image: 'image5',
+        tags: ['ReactJS', 'Django', 'RestApi', 'Python'],
+      },
+      {
+        title: 'Campoprime',
+        description: 'A user friendly web Application where Student can Interact and share learnning materials among themselves. Educators can also sell thir courses to Students.',
+        image: 'image6',
+        tags: ['ReactJS', 'SupaBase', 'Tailwindcss'],
+      },
 ];
 
 const Projects = () => {

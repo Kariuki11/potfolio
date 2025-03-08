@@ -76,9 +76,18 @@ const Home = () => {
                 <Link to="/contact" className="flat-button">
                 CONTACT ME
                 </Link>
-                <Link to="/about" className="flat-button">
-                About Me
-                </Link>
+                {/* Replace the About Me Link with a Download Resume button */}
+                <a 
+                        href="/path/to/your/resume.pdf" // Replace with the actual path to your resume file
+                        download="Your_Resume.pdf" // This will be the name of the downloaded file
+                        className="flat-button"
+                    >
+                        Download Resume
+                    </a>
+                {/* <Link to="/about" className="flat-button">
+                RESUME
+                </Link> */}
+                {/* </Link>
                     {/* <Logo />  */}
             </div>
         </div>
