@@ -9,28 +9,28 @@ import image5 from '../../assets/images/Project5.png';
 
 
 const projects = [
-  {
-    title: 'Car Rent',
-    description: 'Web-based platform that allows users to search, book, and manage car rentals from various providers.',
-    tags: ['#mongodo', '#tokwini'],
-    githubUrl: 'https://github.com/yourusername/car-rent',
-    // image: "image3",
-    image: image3,
-  },
-  {
-    title: 'Job IT',
-    description: 'Web application that enables users to search for job openings and view estimated salary requests.',
-    tags: ['#rustap', '#kau'],
-    githubUrl: 'https://github.com/yourusername/job-it',
-    imageUrl: 'path/to/job-it.jpg' // Replace with actual image path
-  },
-  {
-    title: 'Trip Guide',
-    description: 'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars.',
-    tags: ['#rustj', '#supotone', '#cui'],
-    githubUrl: 'https://github.com/yourusername/trip-guide',
-    imageUrl: 'path/to/trip-guide.jpg' // Replace with actual image path
-  },
+    {
+      title: 'Car Rent',
+      description: 'Web-based platform that allows users to search, book, and manage car rentals from various providers.',
+      tags: ['#mongodo', '#tokwini'],
+      githubUrl: 'https://github.com/yourusername/car-rent',
+      // image: "image3",
+      image: image3,
+    },
+    {
+      title: 'Job IT',
+      description: 'Web application that enables users to search for job openings and view estimated salary requests.',
+      tags: ['#rustap', '#kau'],
+      githubUrl: 'https://github.com/yourusername/job-it',
+      imageUrl: 'path/to/job-it.jpg' // Replace with actual image path
+    },
+    {
+      title: 'Trip Guide',
+      description: 'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars.',
+      tags: ['#rustj', '#supotone', '#cui'],
+      githubUrl: 'https://github.com/yourusername/trip-guide',
+      imageUrl: 'path/to/trip-guide.jpg' // Replace with actual image path
+    },
   {
         title: 'Car Rent',
         description: 'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
