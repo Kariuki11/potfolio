@@ -14,8 +14,8 @@ const projects = [
     description: 'Web-based platform that allows users to search, book, and manage car rentals from various providers.',
     tags: ['#mongodo', '#tokwini'],
     githubUrl: 'https://github.com/yourusername/car-rent',
-    // imageUrl: 'path/to/car-rent.jpg' // Replace with actual image path
-    image: "image",
+    // image: "image3",
+    image: image3,
   },
   {
     title: 'Job IT',
@@ -34,7 +34,7 @@ const projects = [
   {
         title: 'Car Rent',
         description: 'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
-        image: 'image1',
+        image: image4,
         githubUrl: 'https://github.com/yourusername/car-rent',
         tags: ['#mongodo', '#tokwini'],
       },
